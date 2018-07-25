@@ -14,6 +14,17 @@
 * Move the zip file to your coding place [choose your coding folder]
 * Extract the zip file there 
 * Set up the Path File variable to look @ that folder 
+  - open the termianl app 
+  - go to the zip file location the to bin folder & type the pwd command to know the PATH
+  - after copy & paste the PATH open new termainl window 
+  - go to main dir bt type ~/ 
+  - find the .bash_profile file 
+  - type nano .bash_profile 
+  - the file will and add this without this[].  => [export PATH='the copied path']
+  - restart the terminal app 
+  - type into the terminal flutter and will work ^_^
+  
+  
 
 
 
