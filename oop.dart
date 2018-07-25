@@ -24,9 +24,12 @@ class Deck {
     var suits = ['Diamonds','Hearts','Clubs','Spades'];
     
     // Loops that insert the all - 
-    for(var suit in suits){
+    for(var mySuit in suits){
       for(var rank in ranks){
-        var card = new Card(rank, suit);
+        var card = new Card(
+          rank: rank,
+          suit: mySuit
+        );
         cards.add(card); // add into the list - 
       }
     }
@@ -70,7 +73,8 @@ class Card{
   String rank;
   
 //   constructor 
-  Card(this.rank, this.suit);
+  // {} is for named parameter 
+  Card({this.rank, this.suit});
 //   methods 
   toString(){
     return '$rank of $suit'; 
