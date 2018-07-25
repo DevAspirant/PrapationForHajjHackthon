@@ -10,8 +10,11 @@
 
 ### Setup the Flutter Enviroment into MAC-OSX - 
 * Go to this page https://flutter.io/setup-macos/
-*
-*
+* install the Flutter SDK zip file 
+* Move the zip file to your coding place [choose your coding folder]
+* Extract the zip file there 
+* Set up the Path File variable to look @ that folder 
+
 
 
 ### Documentation - 
