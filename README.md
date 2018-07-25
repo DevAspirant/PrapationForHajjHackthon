@@ -1,14 +1,14 @@
 # PrapationForHajjHackthon - هاكثون الحج لسنة ٢٠١٨
 يعتبر المشروع عشان بستعد لهاكثون  الحج  فمن خلال المشروع هذا راح تفهم لغة الدارت من جوجل مع استخدام منصة فليتر
 
-### Learning Dart - تعلم لغة البرمجة دارت
+## Learning Dart - تعلم لغة البرمجة دارت
 * Hello World 
 * data type 
 * condition 
 * loops 
 * OOP 
 
-### Setup the Flutter Enviroment into MAC-OSX - 
+## Setup the Flutter Enviroment into MAC-OSX - 
 * Go to this page https://flutter.io/setup-macos/
 * install the Flutter SDK zip file 
 * Move the zip file to your coding place [choose your coding folder]
@@ -24,9 +24,12 @@
   - restart the terminal app 
   - type into the terminal flutter and will work ^_^
   
-  
+## How to create flutter project 
+* Open termainl application 
+* go to folder dir 
+* type flutter create [projectname]
 
 
 
-### Documentation - 
+## Documentation - 
 * https://api.dartlang.org/stable/1.24.3/dart-core/List/shuffle.html
