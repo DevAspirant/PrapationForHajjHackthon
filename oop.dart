@@ -2,10 +2,13 @@
 void main(){
 //   create instance or object - عمل الاوبجيكت
   var deck = new Deck(); // call the constructor - 
-  deck.shuffle();
+//   deck.shuffle();
+//   print(deck.cardsWithSuit('Diamonds')); // print every cards with suit Diamonds 
   print(deck);
-  print(deck.cardsWithSuit('Diamonds')); // print every cards with suit Diamonds 
-
+  print('Check the Deal');
+//   print(deck);
+  print(deck.deal(5));
+// 	print(deck);
 }
 
 class Deck {
@@ -35,9 +38,17 @@ class Deck {
   
   cardsWithSuit(String suit){
     // create a function that search into the card object
-    return cards.where((card){
-      return card.suit == suit; // a boolean value that check if there is cards with suite
-    });
+// return cards.where((card){
+//       return card.suit == suit; // a boolean value that check if there is cards with suite
+//     });
+    // solve it into another way 
+    return cards.where((card) => card.suit == suit);
+  }
+  // remove the card from deck if it has been selected 
+  deal(int handSize){
+    var hand = cards.sublist(0, handSize);
+    cards=cards.sublist(handSize);
+  	return hand;
   }
 }
 // define the Card class - 
