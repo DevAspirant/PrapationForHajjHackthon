@@ -9,6 +9,9 @@ void main(){
 //   print(deck);
   print(deck.deal(5));
 // 	print(deck);
+  print('remove');
+  deck.removeCards('Ace','Diamonds');
+  print(deck);
 }
 
 class Deck {
@@ -50,6 +53,15 @@ class Deck {
     cards=cards.sublist(handSize);
   	return hand;
   }
+  
+  removeCards(String suit, String rank){
+    // access to cards 
+//     cards.removeWhere((card){
+//       return (card.suit == suit) && (card.rank == rank); });
+    // another way
+     cards.removeWhere((card) => (card.suit == suit) && (card.rank == rank));
+  }
+  
 }
 // define the Card class - 
 class Card{
