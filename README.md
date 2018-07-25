@@ -8,8 +8,8 @@
 * loops 
 * OOP 
 
-### Setup the Flutter Enviroment - 
-*
+### Setup the Flutter Enviroment into MAC-OSX - 
+* Go to this page https://flutter.io/setup-macos/
 *
 *
 
