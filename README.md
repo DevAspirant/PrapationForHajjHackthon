@@ -29,6 +29,11 @@
 * go to folder dir 
 * type flutter create [projectname]
 
+## how to run the flutter project into xCode 
+* After create the project open the xCode application 
+* go to xCode menu and choose simulator 
+* go to the project dir by termianl 
+* type ``` flutter devices ```
 
 
 ## Documentation - 
