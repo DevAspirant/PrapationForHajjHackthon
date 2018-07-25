@@ -4,6 +4,7 @@ void main(){
   var deck = new Deck(); // call the constructor - 
   deck.shuffle();
   print(deck);
+  print(deck.cardsWithSuit('Diamonds')); // print every cards with suit Diamonds 
 
 }
 
@@ -30,6 +31,13 @@ class Deck {
   }
   shuffle(){
     cards.shuffle(); // called shuffle method for the cards 
+  }
+  
+  cardsWithSuit(String suit){
+    // create a function that search into the card object
+    return cards.where((card){
+      return card.suit == suit; // a boolean value that check if there is cards with suite
+    });
   }
 }
 // define the Card class - 
