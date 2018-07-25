@@ -1,8 +1,9 @@
 // main function - الدالة الرئيسة
 void main(){
 //   create instance or object - عمل الاوبجيكت
-  new Deck(); // call the constructor - 
-  
+  var deck = new Deck(); // call the constructor - 
+  deck.shuffle();
+  print(deck);
 
 }
 
@@ -26,6 +27,9 @@ class Deck {
   //   methods -  
   toString(){
     return cards.toString(); // this is for print the list function - 
+  }
+  shuffle(){
+    cards.shuffle(); // called shuffle method for the cards 
   }
 }
 // define the Card class - 
