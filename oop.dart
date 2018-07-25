@@ -2,6 +2,7 @@
 void main(){
 //   create instance or object - عمل الاوبجيكت
   new Deck(); // call the constructor - 
+  
 
 }
 
@@ -23,6 +24,9 @@ class Deck {
     }
   }
   //   methods -  
+  toString(){
+    return cards.toString(); // this is for print the list function - 
+  }
 }
 // define the Card class - 
 class Card{
@@ -33,4 +37,7 @@ class Card{
 //   constructor 
   Card(this.rank, this.suit);
 //   methods 
+  toString(){
+    return '$rank of $suit'; 
+  }
 }
